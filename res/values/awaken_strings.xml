@@ -257,4 +257,8 @@
     <string name="gesture_navbar_radius_title">Pill radius</string>
     <string name="thin_label">Thin</string>
     <string name="thick_label">Thick</string>
+
+    <!-- awaken Lab -->
+    <string name="awaken_lab_dash_title">Awaken Lab</string>
+    <string name="awaken_lab_summary">Rise of Customizations</string>
 </resources>
