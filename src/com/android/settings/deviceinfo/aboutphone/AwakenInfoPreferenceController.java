@@ -50,7 +50,7 @@ public class AwakenInfoPreferenceController extends AbstractPreferenceController
         final TextView battery = (TextView) awakenInfoPreference.findViewById(R.id.battery_type_message);
         final TextView infoScreen = (TextView) awakenInfoPreference.findViewById(R.id.screen_message);
         processor.setText(AwakenSpecUtils.getProcessorModel());
-        storage.setText(String.valueOf(AwakenSpecUtils.getTotalInternalMemorySize()) + "GB ROM + " + String.valueOf(AwakenSpecUtils.getTotalRAM()) + "GB RAM");
+        storage.setText(String.valueOf(AwakenSpecUtils.getTotalInternalMemorySize()) + "GB ROM + " + AwakenSpecUtils.getTotalRAM() + " RAM");
         battery.setText(AwakenSpecUtils.getBatteryCapacity(mContext) + " mAh");
         infoScreen.setText(AwakenSpecUtils.getScreenRes(mContext));
     }
